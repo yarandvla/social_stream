@@ -131,6 +131,16 @@
 			"matches": ["https://*.webinargeek.com/webinar/*", "https://*.webinargeek.com/watch/*"]
 		},
 		{
+			"js": ["./sources/getcourse.js"],
+			"matches": [
+				"https://*.getcourse.ru/*",
+				"https://*/*webinar*",
+				"https://*/pl/webinar/moderation/index*",
+				"https://*/pl/webinar/comment*"
+			],
+			"all_frames": true
+		},
+		{
 			"js": ["./sources/openstreamingplatform.js"],
 			"matches": ["https://demo.openstreamingplatform.com/view/*chatOnly=True*"]
 		},
