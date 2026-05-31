@@ -149,7 +149,7 @@
 		
 		// Try to get avatar - GetCourse doesn't show avatars in the chat directly
 		// but we can construct a placeholder or try to fetch from user profile
-		var chatimg = "";
+		var chatimg = "./sources/images/getcourse.png";  // GetCourse icon for chat
 		
 		// Get timestamp if available and format it properly
 		var timestamp = null;
